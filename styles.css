@@ -1,9 +1,10 @@
 /*  your css code here. If applicable */
-body{
+#grid{
 	display: grid;
 	grid-template-rows: repeat(5, 1fr);
 	grid-template-columns: repeat(4, 1fr);
 	gap: 10px;
+	background-color: white;
 }
 div{
 	background-color: green;
